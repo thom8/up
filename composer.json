@@ -1,0 +1,19 @@
+{
+    "name": "thom8/up",
+    "description": "",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require-dev": {
+        "beet/box": "dev-master"
+    },
+    "extra": {
+        "beetbox": {
+            "config": {
+                "vagrant_ip": "192.168.8.8",
+                "beet_domain": "up.192.168.8.8.xip.io",
+                "beet_project": "custom"
+            }
+        }
+    }
+}
