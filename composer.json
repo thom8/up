@@ -1,0 +1,25 @@
+{
+    "name": "thom8/up",
+    "description": "",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require-dev": {
+        "beet/box": "dev-master"
+    },
+    "extra": {
+        "beetbox": {
+            "config": {
+                "vagrant_ip": "192.168.8.8",
+                "beet_domain": "wordpress.192.168.8.8.xip.io",
+                "beet_root": "{{ beet_base }}/wordpress",
+                "beet_project": "wordpress",
+                "wp_download_core": true,
+                "wp_install_site": true,
+                "wp_account_name": "admin",
+                "wp_account_pass": "admin",
+                "wp_account_email": "admin@wordpress.local"
+            }
+        }
+    }
+}
